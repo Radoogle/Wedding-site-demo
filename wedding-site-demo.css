@@ -26,7 +26,6 @@ h2 {
   text-align: center;
   font-size: 3rem;
   line-height: 5rem;
-  display: inline-block;
   margin-bottom: 1.3rem;
 }
 
@@ -84,11 +83,13 @@ h3 {
 
 /* MAIN SECTIONS STYLING */
 
+main {
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png") repeat, #606060;
+}
 
 /* SECTION LOCATIONS STYLING */
-
+  
 .locations {
-  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png") repeat, #ddd;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -116,6 +117,40 @@ h3 {
   width: 7.5rem;
   margin: 1rem 0;
 }
+
+/* SECTION PROGRAM STYLING */
+
+.program {
+  background: hsla(100,0%,0%,.6);
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1.5rem 1rem;
+}
+
+.program p, .program ul {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+} 
+
+.program p {
+  margin: 0 0 1.5rem 0;
+}
+
+q {
+  font-style: italic;
+}
+
+/* SECTION GIFTS STYLING */
+
+
+
+
+
+
+
 
 
 
