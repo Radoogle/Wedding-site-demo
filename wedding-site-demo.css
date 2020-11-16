@@ -145,12 +145,33 @@ q {
 
 /* SECTION GIFTS STYLING */
 
+.gifts {
+  padding: 1.5rem 1rem;
+}
 
+.gifts img {
+  display: block;
+  width: 7.5rem;
+  margin: 2rem auto;
+}
 
+.gifts div, .gifts p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
 
+/* SECTION QA STYLING */
 
-
-
+.qa {
+  background: hsla(100,0%,0%,.6);
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1.5rem 1rem;
+}
 
 
 
