@@ -207,11 +207,20 @@ q {
   margin: 1.5rem auto;
 }
 
+/* SECTION CONTACT STYLING */
 
+.contact {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
 
-
-
-
+.contact p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: .02rem;
+  line-height: 1.85rem;
+}
 
 /* FOOTER STYLING */
 
