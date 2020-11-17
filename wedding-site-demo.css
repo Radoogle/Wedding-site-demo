@@ -114,6 +114,11 @@ main {
   padding: 2rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .blurb {
   margin: 0 auto;
   text-align: center;
@@ -134,6 +139,22 @@ main {
 .blurb img {
   width: 7.5rem;
   margin: 1rem 0;
+}
+
+/* MEDIA QUERY FOR LOCATIONS */
+
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;
+  }
+  
+  .blurb::after {
+    display: none;
+  }
+  
+  .locations {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* SECTION PROGRAM STYLING */
