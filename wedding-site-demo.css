@@ -161,7 +161,7 @@ main {
 
 .program {
   background: hsla(100,0%,0%,.6);
-  width: 100%;
+  width: 100vw;
   /* text-align: center; */
   display: flex;
   flex-direction: column;
@@ -181,6 +181,16 @@ main {
 q {
   font-style: italic;
 }
+
+/* MEDIA QUERY FOR PROGRAM */
+
+@media (min-width: 768px) {
+  .program p, .program ul {
+    margin: 0 auto 1.5rem;
+    width: 50%;
+  }
+}
+
 
 /* SECTION GIFTS STYLING */
 
